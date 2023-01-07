@@ -29,6 +29,13 @@ class Program
         {
             Console.WriteLine("F");
         }
-
+        if (percent >= 70)
+        {
+            Console.WriteLine("Congratulations, you passed!");
+        }
+        else
+        {
+            Console.WriteLine("You failed, work harder");
+        }
     }
 }
