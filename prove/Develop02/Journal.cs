@@ -82,7 +82,8 @@ public class Journal
 
     public void SaveCSV()
     {
-        
+        StreamWriter writer = new StreamWriter(filePath);
+
         Console.WriteLine("Write the name of the file: ");
         string newFile = Console.ReadLine();
         string newPath = "C:\\Users\\inggo\\Documents\\"+newFile+".csv";
