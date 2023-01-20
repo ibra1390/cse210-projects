@@ -73,6 +73,7 @@ public class Journal
         string newDate = date.ToString("MM/dd/yyyy");
         string userAnswer = Console.ReadLine();
         
+        
  
         builder.AppendLine(string.Format("Date: {0}, {1}", newDate, userAnswer));
 
@@ -89,7 +90,7 @@ public class Journal
         string newPath = "C:\\Users\\inggo\\Documents\\"+newFile+".csv";
         File.Create(newPath).Dispose();
         filePath = newPath;
-     
+
     }
 
     public void LoadCSV()
