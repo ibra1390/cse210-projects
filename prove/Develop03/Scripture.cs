@@ -9,6 +9,11 @@ class Scripture
     {
         scriptureReference = _scriptureReference;
         scriptureText = _scriptureText;
-        
+
+    }
+
+    public string toString()
+    {
+        return string.Format("{0}", scriptureText);
     }
 }
