@@ -1,30 +1,20 @@
 using System;
 
 
-class Assignment
+public class Assignment
 {
     private string _studentName;
     private string _topic;
 
-    public string GetStudentName()
-    {
-        return _studentName;
-    }
 
-    public void SetStudentName(string studentName)
+    public Assignment(string studentName, string topic)
     {
         _studentName = studentName;
-    }
-
-    public string GetTopic()
-    {
-        return _topic;
-    }
-
-    public void SetTopic(string topic)
-    {
         _topic = topic;
     }
+
+
+
 
     public string GetSummary()
     {
