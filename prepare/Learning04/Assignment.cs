@@ -3,7 +3,7 @@ using System;
 
 public class Assignment
 {
-    private string _studentName;
+    protected string _studentName;
     private string _topic;
 
 
@@ -12,9 +12,6 @@ public class Assignment
         _studentName = studentName;
         _topic = topic;
     }
-
-
-
 
     public string GetSummary()
     {
