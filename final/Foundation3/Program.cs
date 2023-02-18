@@ -17,20 +17,20 @@ class Program
         Outdoor outdoor1 = new Outdoor("Outdoor Gathering", "Rock n' Roll Concert", "Come to listen all of your favorite rock bands in one place","June 15th, 2023","7:00 pm - 10:00 pm", address3, "cloudy and fresh");
 
         lectures1.standardDetails();
-        lectures1.LectureFullDetails();
-        lectures1.shortDescription();
-        Console.WriteLine("---------------------------------------------------------");
-        Console.WriteLine();
-
         reception1.standardDetails();
+        outdoor1.standardDetails();
+        Console.WriteLine("---------------------------------------------------------");
+        Console.WriteLine();
+
+        lectures1.LectureFullDetails();
         reception1.ReceptionFullDetails();
-        reception1.shortDescription(); 
+        outdoor1.OutdoorFullDetails();
         Console.WriteLine("---------------------------------------------------------");
         Console.WriteLine();
 
 
-        outdoor1.standardDetails();
-        outdoor1.OutdoorFullDetails();
+        lectures1.shortDescription();
+        reception1.shortDescription();
         outdoor1.shortDescription();
         Console.WriteLine("---------------------------------------------------------");
         Console.WriteLine();
