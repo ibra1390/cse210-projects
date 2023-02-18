@@ -16,19 +16,21 @@ class Program
         Reception reception1 = new Reception("Reception", "Mara and Ibra's wedding", "You're invited to celebrate the love between two persons who love each other","December 1st, 2023","5:00 p.m. - 12:00 am", address2, "SalonLosGirasoles@gmail.com");
         Outdoor outdoor1 = new Outdoor("Outdoor Gathering", "Rock n' Roll Concert", "Come to listen all of your favorite rock bands in one place","June 15th, 2023","7:00 pm - 10:00 pm", address3, "cloudy and fresh");
 
+        //standard details 
         lectures1.standardDetails();
         reception1.standardDetails();
         outdoor1.standardDetails();
         Console.WriteLine("---------------------------------------------------------");
         Console.WriteLine();
 
+        //full details 
         lectures1.LectureFullDetails();
         reception1.ReceptionFullDetails();
         outdoor1.OutdoorFullDetails();
         Console.WriteLine("---------------------------------------------------------");
         Console.WriteLine();
 
-
+        //short description 
         lectures1.shortDescription();
         reception1.shortDescription();
         outdoor1.shortDescription();
