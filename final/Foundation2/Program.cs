@@ -73,7 +73,7 @@ class Program
             Console.WriteLine($"Total cost Order: {order.getOrderCost()}");
             Console.WriteLine();
             order.displayShippingLabel();  
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("----------------------------");
             Console.WriteLine();
 
 
